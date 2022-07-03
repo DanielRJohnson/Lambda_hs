@@ -5,7 +5,7 @@ What if there was a form of math/programming that *ONLY* had one-parameter funct
 
 The most "atomic" <ins>value</ins> is the identity function `λx. x`.
 
-We can emulate multi-parameter functions with currying [Currying](https://en.wikipedia.org/wiki/Currying) like so: `λx.λy. (use x and y)`.
+We can emulate multi-parameter functions with [Currying](https://en.wikipedia.org/wiki/Currying) like so: `λx.λy. (use x and y)`.
 
 We can define booleans as curried functions that return the first or the "second" argument, True = `λx.λy.x` False = `λx.λy.y`.
 
