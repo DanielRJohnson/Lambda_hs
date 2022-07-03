@@ -20,6 +20,7 @@ You can also form functions to do other basic operations like adding, multipling
 
 ## The REPL
 <img src="https://github.com/DanielRJohnson/Lambda_hs/blob/main/img/examples.png" width="66%" />
+
 To run the REPL:
  * Have a working installation of GHC (Haskell's main compiler)
  * Clone this repo
